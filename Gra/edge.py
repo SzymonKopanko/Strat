@@ -2,6 +2,8 @@ class Edge:
     player = None
     road = None
     points = None
+    edges = None
+
     def __init__(self, hexes):
         self.hexes = hexes
 
